@@ -1,0 +1,10 @@
+//*Vartables Scss
+$blackSoft: #333;
+$whiteSoft: rgb(195, 162, 162);
+$btnGreenHome: #057b23;
+$btnGreen: #10b333;
+$whiteBody: #f2f2f2;
+
+@mixin transition($duration, $easing) {
+    transition: all $duration $easing;
+}

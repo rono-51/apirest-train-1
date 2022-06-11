@@ -1,0 +1,126 @@
+section {
+  display: block;
+  margin: 3rem auto;
+  width: 65%;
+  background: #fff;
+  border-radius: 0.8rem;
+  border: 2px solid rgba(107, 145, 150, 0.5019607843);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 3.2rem;
+}
+section > div > div > h1 {
+  text-align: center;
+  font-size: 2.7rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+section > div > form input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: internal light dark(black white);
+  font-size: 0.93rem;
+}
+section > div > form h5 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+section > div > form > div:first-child {
+  background-color: #f2f2f2;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1.5px solid rgba(107, 145, 150, 0.5019607843);
+}
+section > div > form .flex-conteiner {
+  display: flex;
+  gap: 2rem;
+}
+section > div > form .flex-conteiner > div {
+  width: 100%;
+  background-color: #f2f2f2;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1.5px solid rgba(107, 145, 150, 0.5019607843);
+}
+section > div > form .conteiner-password {
+  background-color: #f2f2f2;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1.5px solid rgba(107, 145, 150, 0.5019607843);
+}
+section > div > form .textarea-conteiner {
+  background-color: #f2f2f2;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1.5px solid rgba(107, 145, 150, 0.5019607843);
+}
+section > div > form .textarea-conteiner textarea {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: internal light dark(black white);
+  font-size: 0.93rem;
+  resize: none;
+  overflow: hidden;
+}
+section > div > form .button-container button {
+  width: 100%;
+  border: none;
+  font-size: 1.1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  background-color: #000;
+  color: #fff;
+  height: 3rem;
+  border-radius: 1000px;
+  cursor: pointer;
+}
+section > div > form .message-alert {
+  padding: 0.5rem 0;
+  text-align: center;
+  background-color: red;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+section > div > form .message-alert.active {
+  -webkit-animation: scale-in-ver-center 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-ver-center 0.7s cubic-bezier(0.25 0.46, 0.45 0.94) both;
+}
+
+@-webkit-keyframes scale-in-ver-center {
+  0% {
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+@keyframes scale-in-ver-center {
+  0% {
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=signup.css.map */

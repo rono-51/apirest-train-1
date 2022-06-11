@@ -1,0 +1,88 @@
+<link rel="stylesheet" href="/css/signup.css">
+
+{{!-- Card form --}}
+<section>
+    {{!-- conteiner form --}}
+    <div>
+        <div>
+            {{!-- titlle card bold --}}
+            <h1>
+                Sign Up
+            </h1>
+        </div>
+        <form action="/signup" method="POST">
+            {{!-- conteiner input square --}}
+            <div>
+                {{!-- Title input --}}
+                <div>
+                    <h5>
+                        FULL NAME
+                    </h5>
+                </div>
+                <div>
+                    <input type="text" name="fullname" autocomplete="off" autofocus="true" spellcheck="false" placeholder="Please Type Your Name">
+                </div>
+            </div>
+            {{!-- conteiner eamil & phone input --}}
+            <div class="flex-conteiner">
+                <div>
+                    <div>
+                        <h5>
+                            EMAIL
+                        </h5>
+                    </div>
+                    <div>
+                        <input type="email" name="email" spellcheck="false" autocomplete="off" placeholder="example@gmail.com">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h5>
+                            PHONE
+                        </h5>
+                    </div>
+                    <div>
+                        <input type="number" name="number" spellcheck="false" autocomplete="off" placeholder="Enter Number Phone">
+                    </div>
+                </div>
+            </div>
+            {{!-- conteiner input passwprd--}}
+            <div class="conteiner-password">
+                <div>
+                    <h5>
+                        PASSWORD
+                    </h5>
+                </div>
+                <div>
+                    <input type="password" name="password" spellcheck="false" autocomplete="off" placeholder="Enter Password">
+                </div>
+            </div>
+            {{!-- conteiner input description --}}
+            <div class="textarea-conteiner">
+                <div>
+                    <h5>
+                        DESCRIPTION
+                    </h5>
+                </div>
+                <div>
+                    <textarea name="description" spellcheck="false" autocomplete="off" placeholder="Your Description Here" maxlength="170"></textarea>
+                </div>
+            </div>
+
+            <div class="message-alert">
+                <i class="fas fa-exclamation-triangle"></i>
+                <span>
+                    The data entered is incorrect! Please try again!
+                </span>
+            </div>
+            {{!-- conteiner input submit --}}
+            <div class="button-container">
+                <button type="submit" id="btn-submmit">
+                    Submit 
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<script src="/script/signup.js"></script>
